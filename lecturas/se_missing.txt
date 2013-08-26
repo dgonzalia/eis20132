@@ -1,0 +1,23 @@
+Cuestionario: Software Engineering Missing in Action
+
+¿Porque el autor pone en duda la existencia de la disciplina Ingeniería de software?
+
+
+- Las empresas más grandes tienen sus propios grupos de investigacion, cuyo trabajo se parece mucho a la investigación académica -que interactúan al menos tanto con investigadores externos como con los desarrolladores internos-. Es esta brecha (entre la investigación académica y los problemas de desarrolladores) lleva al autor a decir que la disciplina "Ingeniería de Software" está "desaparecida en acción."
+
+Algunos de los articulos mas destacados es el mensaje de Manfred Broy en " Can Practitioners Neglect Theory and Theoreticians Neglect Practice? "; es que no podemos tener una disciplina de ingeniería sin "teoría". En ciencias de la computación, no hay la física involucrada, la teoría es toda la matemática.
+Si queremos establecer el desarrollo de software como una profesión de la ingeniería, definitivamente tenemos que discutir el papel que las matemáticas pueden jugar en el campo y que es exactamente lo que debe enseñarse. Han habido algunas propuestas, pero no ha sido suficiente debate para llegar a un acuerdo.
+  
+La posicion del autor -sobre la cual sostiene que tadavia no se llegó a establecer la profesion de ingeniero de software-, basada en los articulos citados y sus conclusiones (por ejemplo el citado anteriormente de Manfred Broy), es:
+
+	.Seguimos escribiendo documentos argumentando que necesitamos un poco de teoría o las matemáticas para ser una profesión, en lugar de discutir sobre las 	áreas específicas de la teoría de que un ingeniero de software debe saber.
+
+	.Encontramos que las áreas de aplicación individuales están descubriendo los problemas comunes y la solución de ellos con sus propias técnicas y 	terminología especializada.
+
+	.No distinguimos consistentemente entre los problemas de ingeniería, los problemas de gestión, los problemas de la tecnología, y las cuestiones del plan de 	negocios.
+
+	.Somos, como muchos otros han dicho, un campo que está dominado por las modas con siglas inteligentes que provocan una oleada de interés y luego se 	desvanecen.
+
+	.Si seguimos para tratar de ingeniería de software como un área de investigación y no como una profesión regulada, hemos perdido de vista el objetivo original.
+
+Si queremos establecer una disciplina de la ingeniería que se especializa en sistemas intensivos en software, el primer paso es ponerse de acuerdo sobre un cuerpo básico de conocimientos. Hasta el momento, los distintos esfuerzos por establecer un conjunto de conocimientos han sido demasiado inclusivos. Ellos han tratado de recoger todas las creencias y los hechos sobre el desarrollo de software en lugar de identificar un pequeño núcleo de conocimientos sólido que todos los ingenieros de software deben dominar.
