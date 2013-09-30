@@ -72,27 +72,33 @@ describe 'Juego' do
 
 	end
 
-	describe 'completar_tabla_aciertos' do
+	describe 'get_repeticiones' do
 
-		it 'Deberia devolver 3 cuando pregunto por a en cascada' do
+		it 'Deberia devolver "3" cuando pregunto por "a" en cascada' do
 			@juego.set_palabra('cascada')
 			@juego.verificar_letra('a')
 			@juego.get_repeticiones.should eq 3
 		end
+		
+		it 'Deberia devolver "0" cuando pregunto por "f" en cascada' do
+			@juego.set_palabra('cascada')
+			@juego.verificar_letra('f')
+			@juego.get_repeticiones.should eq 0
+		end
 	end
 
-	describe 'mostrar_juego' do
+	describe 'mostrar_tabla_aciertos' do
 
-		it 'Deberia devolver a--- cuando pregunto por a en auto' do
-			@juego.set_palabra('casa')
+		it 'Deberia devolver "a---" cuando pregunto por "a" en auto' do
+			@juego.set_palabra('auto')
 			@juego.verificar_letra('a')
-			@juego.mostrar_juego().should eq 'a---'	
+			@juego.mostrar_tabla_aciertos().should eq 'a---'	
 		end
 	end
 
 	describe 'verificar_ganador' do
 
-		it 'Deberia devolver Ganaste cuando pregunto correctamente pato'
+		it 'Deberia devolver "Ganaste" cuando pregunto correctamente por pato' do
 			@juego.set_palabra('pato')
 			@juego.verificar_letra('p')
 			@juego.verificar_letra('a')
@@ -101,17 +107,17 @@ describe 'Juego' do
 			@juego.verificar_ganador().should eq 'Ganaste'
 		end
 		
-		it 'Deberia devolver Ahorcado cuando pregunte incorrectamente 7 veces por lago' do
+		it 'Deberia devolver "Ahorcado" cuando pregunto 7 veces por lago' do
 			@juego.set_palabra('lago')
-			@juego.verificar_num_repeticiones('g')
-			@juego.verificar_num_repeticiones('n')
-			@juego.verificar_num_repeticiones('l')
-			@juego.verificar_num_repeticiones('o')
-			@juego.verificar_num_repeticiones('q')
-			@juego.verificar_num_repeticiones('s')
-			@juego.verificar_num_repeticiones('p')
+			@juego.verificar_letra('g')
+			@juego.verificar_letra('n')
+			@juego.verificar_letra('l')
+			@juego.verificar_letra('o')
+			@juego.verificar_letra('q')
+			@juego.verificar_letra('s')
+			@juego.verificar_letra('p')
 			@juego.verificar_ganador().should eq 'Ahorcado'
 		end
-	end	
+	end
+end	
 
-end
