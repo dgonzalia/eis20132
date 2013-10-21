@@ -1,0 +1,30 @@
+Layers vs Tiers:
+
+
+Layers:
+Las capas son las agrupaciones lógicas de los componentes de software. La división de una aplicación en capas separadas (las cuales tienen distintas funcionalidades) ayuda a maximizar la mantenibilidad del código (al emplearse las APIs en una forma cohesiva), reusabilidad, etc.
+
+Un ejemplo es la arquitectura en 3 capas (layers):
+
+En este tipo de arquitectura el reparto de responsabilidades es lógico. 
+
+    Presentación, que recibe eventos del usuario a través de la interfaz presentada, y también formatea los resultados a desplegar 
+    
+    Negocio, o también Lógica de Dominio, el dominio del problema de negocio por el cual tuvimos que hacer esta aplicación
+    
+    Acceso a Datos, En esta capa simplemente hay lógica que lleva y trae información entre la capa de negocio y los repositorios o sistemas externos donde los datos se almacenan. Acá tenemos conectores, pools de conexiones, lógica de paginado, cachés, y seguramente también aquí resolveremos el desajuste por impedancia entre objetos de dominio y registros de las base de datos
+
+
+
+Tiers:
+Acá sí estamos hablando de una separación física en procesos, es decir, la ejecución está distribuida (computadoras y sistemas separados). Normalmente las motivaciones que llevan a aplicar este tipo de arquitectura tienen que ver con Escalabilidad, Seguridad y Tolerancia a Fallos. Definitivamente también este tipo de arquitectura habilita reuso, ahora a nivel de procesos. 
+
+Un ejemplo es la arquitectura en 3 partes (tiers):
+
+    Cliente o Front-End, que engloba la infraestructura de hardware y software donde se ejecuta la interfaz de usuario. También se suele referir a ellos como Canales.
+
+    Middleware, capaz de recibir a través de la red, y mediante uno o varios protocolos de transporte (HTTP, TCP, etc), uno o varios protocolos de mensajes (XML, SOAP, propietarios, etc) requerimientos desde los distintos canales, habilitandose así el concepto de Arquitectura Multicanal
+
+    Back-End, normalmente una base de datos, aunque definitivamente puede ser otro proceso, incluso mucho más complejo que nuestra aplicación entera. Si el back end es una base de datos, es la base de datos en sí, no la capa de acceso a datos del estilo de arquitectura anterior
+
+

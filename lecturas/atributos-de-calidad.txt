@@ -1,0 +1,47 @@
+Atributo de Usabilidad:
+
+Se refiere a la facilidad con que las personas pueden utilizar una herramienta particular o cualquier otro objeto fabricado por humanos con el fin de alcanzar un objetivo concreto. La usabilidad también puede referirse al estudio de los principios que hay tras la eficacia percibida de un objeto. En informatica, la usabilidad se refiere a la claridad y la elegancia con que se diseña la interacción con un programa o un sitio web (por ejemplo, Jakob Nielsen definió la usabilidad como el atributo de calidad que mide lo fáciles que son de usar las interfaces Web). La usabilidad está muy relacionada con la accesibilidad, hasta el punto de que algunos expertos consideran que una forma parte de la otra o viceversa. 
+
+Otra definición clarificadora es la de Redish (2000), para quien es preciso diseñar sitios web para que los usuarios sean capaces de "encontrar lo que necesitan, entender lo que encuentran y actuar apropiadamente… dentro del tiempo y esfuerzo que ellos consideran adecuado para esa tarea".
+
+Fuera del ámbito informático, la usabilidad está más relacionada con la ergonomía y los factores humanos (Ejemplos de técnicas para hallar respuesta a estas y otras cuestiones son: análisis de requisitos enfocado al usuario, construcción de perfiles de usuarios y pruebas de usabilidad).
+
+Definiciones ISO:
+
+ISO/IEC 9126:
+"La usabilidad se refiere a la capacidad de un software de ser comprendido, aprendido, usado y ser atractivo para el usuario, en condiciones específicas de uso"
+
+Esta definición hace énfasis en los atributos internos y externos del producto, los cuales contribuyen a su funcionalidad y eficiencia. La usabilidad depende no sólo del producto si no también del usuario. Por ello un producto no es en ningún caso intrínsecamente usable, sólo tendrá la capacidad de ser usado en un contexto particular y por usuarios particulares. La usabilidad no puede ser valorada estudiando un producto de manera aislada (Bevan, 1994).
+
+ISO/IEC 9241:
+"Usabilidad es la eficacia, eficiencia y satisfacción con la que un producto permite alcanzar objetivos específicos a usuarios específicos en un contexto de uso específico"
+
+Es una definición centrada en el concepto de calidad en el uso, es decir, se refiere a cómo el usuario realiza tareas específicas en escenarios específicos con efectividad.
+
+
+A partir de la conceptualización llevada a cabo por la ISO, se infieren los principios básicos en los que se basa la usabilidad:
+
+    Facilidad de Aprendizaje: facilidad con la que nuevos usuarios desarrollan una interacción efectiva con el sistema o producto. Está relacionada con la predicibilidad, sintetización, familiaridad, la generalización de los conocimientos previos y la consistencia.
+
+    Facilidad de Uso: facilidad con la que el usuario hace uso de la herramienta, con menos pasos o más naturales a su formación específica. Tiene que ver con la eficacia y eficiencia de la herramienta.
+
+    Flexibilidad: relativa a la variedad de posibilidades con las que el usuario y el sistema pueden intercambiar información. También abarca la posibilidad de diálogo, la multiplicidad de vías para realizar la tarea, similitud con tareas anteriores y la optimización entre el usuario y el sistema.
+
+    Robustez: es el nivel de apoyo al usuario que facilita el cumplimiento de sus objetivos. Está relacionada con la capacidad de observación del usuario, de recuperación de información y de ajuste de la tarea al usuario.
+
+
+Beneficios de la usabilidad
+Entre los principales beneficios se encuentran:
+
+    Reducción de los costes de aprendizaje y esfuerzos.
+    Disminución de los costes de asistencia y ayuda al usuario.
+    Disminución en la tasa de errores cometidos por el usuario y del retrabajo.
+    Optimización de los costes de diseño, rediseño y mantenimiento.
+    Aumento de la tasa de conversión de visitantes a clientes de un sitio web.
+    Aumento de la satisfacción y comodidad del usuario.
+    Mejora la imagen y el prestigio.
+    Mejora la calidad de vida de los usuarios, ya que reduce su estrés, incrementa la satisfacción y la productividad.
+
+Todos estos beneficios implican una reducción y optimización general de los costes de producción, así como un aumento en la productividad. La usabilidad permite mayor rapidez en la realización de tareas y reduce las pérdidas de tiempo.
+
+
